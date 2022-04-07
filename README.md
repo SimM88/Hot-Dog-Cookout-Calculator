@@ -1,10 +1,18 @@
 # Hot-Dog-Cookout-Calculator
 
+# Input of the amount of people attending
+# Input of Amount of hotdogs needed
+
 amountOfPeople = int(input("Greetings! ... could you kindly tell me the amount of people attending? "))
 amountOfHotDogsPer = int(input("and what's the amount of hot dogs per person: "))
 
+# Amount of Hotdogs per person
+# Amount of Hotdog Buns per person
+
 hotDogsPerServing = 10
 bunsPerServing = 8
+
+#Total amount of poeple attending and hotdogs needed
 
 sumAmountOfHotDogs = amountOfPeople * amountOfHotDogsPer
 
